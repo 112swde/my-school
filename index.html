@@ -1,7 +1,7 @@
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
+    <title>My school</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -10,21 +10,18 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <title>My school website</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <nav class="navbar-inverse" style="position: sticky;top: 0;z-index: 9999">
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -32,46 +29,236 @@
             <a class="navbar-brand" href="#">Salt Brook School</a>
         </div>
 
-        <div class="collapse navbar-collapse" id="myNav">
+        <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href=#about>ABOUT</a></li>
-                <li><a href=#achievements>ACHIEVEMENTS</a></li>
-                <li><a href=#activities>ACTIVITIES</a></li>
-                <li><a href=#gallery>GALLERY</a></li>
-                <li><a href=#contact>CONTACT</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#new">What's new</a></li>
+                <li><a href="#books">Some of my fav books</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
+
     </nav>
 
-    <div class="annoncement">
-        <marquee id="marqee1" onmouseover="this.stop();" onmouseout="this.start();">
-            ***Visit our school website-http://saltbrookacademy.com/***
-        </marquee>
+    <div class="announcement">
+        <marquee id="marquee1" onmouseover="this.stop();" onmouseoute="this.start();">
+            *** visit our official website at http://saltbrookacademy.com/ ***</marquee>
     </div>
-
-    <iframe id="image" src="school.jfif" width="1500" height="600"></iframe>
-
+   <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/LxlAbpr32gI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+   
+<hr>
     <div class="container">
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
-            <h1 class="text-capitalize">Contact Salt Brook School</h1>
+
+        <div class="page-header" id="activities">
+            <h2 class="text-capitalize">activities</h2>
+        </div>
+<hr>
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="crcrii.jfif">
+
+                <h4 class="text-capitalize"><kbd>inter-class cricket competition</kbd></h4>
+
+                <hr>
+
+                <h5 class="text-success text-left text-capitalize">held every year in the first quarter.</h5>
+
+                <p class="text-muted text-left">The Salt Brook School cricket tournament is an action packed and exciting event.Played between classes 6 to 9, this event attracts quite a number of spectators. This competition i held in the school ground. This year, class 9 won. Myself, Ayushman, had also participated representing class 6. Our team did pretty well. We defeated class 9 too in the first half of the tournament but in the second half theywere fully dominant. </p>
+            </div>
+        </center>
+
+        <br><br>
+
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="imax.jfif">
+
+                <h4 class="text-capitalize"><kbd>Science and Art exihibition</kbd></h4>
+
+                <hr>
+
+                <h5 class="text-success text-left text-capitalize">held on every odd year (like- 2015, 2019 and 2021)</h5>
+
+                <p class="text-muted text-left">This event is just amazing. The students of Salt Brook School showcase some of their best works of science and art. The most iconic and mesmerizing exihibits were-<br>1.The Li-Fi machine(2019) Made by class 10. mmm...how do i describe it. It's out of my mind.<br>2.A.I robot(2019) Made by class 8. The robot can speak and draw but cannot walk, because it only has its body till its abdomen. No legs.<br>These are the ones which truly amazed me but all the exihibits are created through hard work of the students</p>
+            </div>
+        </center>
+
+        <br><br>
+
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="evgearg.jfif">
+
+                <h4 class="text-capitalize"><kbd>Parents Day competition</kbd></h4>
+
+                <hr>
+
+                <h5 class="text-success text-left text-capitalize">held on every even year (like- 2014, 2016 and 2018)</h5>
+
+                <p class="text-muted text-left">This event is not personally liked be me but it seems like many people like it. I don't like it cause I m not interested in music, dance and other cultural activities. In this event, students try to show their love towards their parents through music,dance and drama.</p>
+            </div>
+        </center>
+
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">Achievements</h2>
+        </div>
+<hr>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#exam">
+            <span class="glyphicon glyphicon-book"></span> HSLC exam<i class="fa fa-sort-desc"></i>
         </div>
 
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14159.74179862233!2d94.9290452!3d27.4712689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x588790fe911b4fb5!2sSalt%20Brook%20Academy!5e0!3m2!1sen!2sin!4v1621497172091!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div id="exam" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="download.jfif" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Exceptional in this exam
+                 
+                </h5>
+                <p>Our school has always been successful in producing rank holders every year.</p>
+            </div>
+
         </div>
-        <div id="details">
-            <img src="32926287_1434866859952621_260614037086142464_n.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-">
-            <h3>Principal's name:</h3>
-            <h4>Mr.Ashwini Dowerah</h4>
-            <div class="contact1">
-                <a href="mailto:saltbrookacademydibrugarh@gmail.com?Subject=Hi">
-                    <h4><i class="fa fa-envelope"></i>&nbsp;&nbsp;saltbrookacademydibrugarh@gmail.com</h4>
-                </a>
-                <a href="#">
-                    <h4><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9435033248</h4>
-                </a>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#tchr">
+            <span class="glyphicon glyphicon-book"></span> Awarded best school of Dibrugarh<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="tchr" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="32926287_1434866859952621_260614037086142464_n.jpg" "img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Proud to be a student of this school
+                    
+                </h5>
+                <p>The hard work of the director, staff and students of this school has made it the best school of Dibrugarh (as of 2019).</p>
             </div>
         </div>
+
+
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#fre">
+            <span class="glyphicon glyphicon-book"></span> All india wushu championship<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="fre" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="usu.jfif" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">A great achievement for the school
+                   
+                </h5>
+                <p>Arhaan Borua, one of my very good friends won silver medal in this champeonship.Sorry, I cannot find an image of him in the internet.</p>
+            </div>
+        </div>
+
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+            <h2 class="text-capitalize ">What's new</h2>
+        </div>
+
+        <ul class="list-group">
+
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>New Building</h4>
+                <img src="school.jfif" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">the whole school campus, the building is new. It's construction was finished in 2019. The first builing was smaller and did no have a playground</p>
+            </li>
+
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>New playground</h4>
+                
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Thanks to this playground, we can now host the cricket competition in the school itself.</p>
+            </li>
+
+
+        </ul>
+        
+        <div class="page-header" id="books">
+            <h2 class="text-capitalize"></h2>
+        </div>
+          <div class="page-header col-lg-12 co-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize">Some of the best books I discovered in the school library</h2>
+        </div>
+
+        <div class="page-header col-lg-12 co-md-12 col-sm-12 col-xs-12" data-toggle="modal" data-target="harry">
+            <img src="harry.jfif" class="img-responsive">
+            <hr>
+            <p class="text-primary">Harry Potter and the Sorcerer's Stone</p>
+        </div>
+
+        <div class="modal fade" id="harry">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="moodal-title">Harry Potter and the Sorcerer's Stone</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="harry.jfif" class="img-responsive img-modal">
+                        <p class="p_modal">The first and the best book of the Harry potter series. I discovered it when I was in class 4, about 3 years ago. It was the first no illustrations book that I found interest in. This book tells about the birth of Harry Potter and his first year at Hogwarts.<br><a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"><b>CLICK TO KNOW MORE ABOUT THIS BOOK</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          <div class="page-header col-lg-12 co-md-12 col-sm-12 col-xs-12" data-toggle="modal" data-target="goosebump">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgYUDDoAPfjYsDseRdCWsGzL7y5e4F0y-Ytw&usqp=CAU" class="img-responsive">
+            <hr>
+            <p class="text-primary">The Goosebumps Series</p>
+        </div>
+
+        <div class="modal fade" id="goosebump">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="moodal-title">The Goosebumps Series</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgYUDDoAPfjYsDseRdCWsGzL7y5e4F0y-Ytw&usqp=CAU" class="img-responsive img-modal">
+                        <p class="p_modal">My most fav book series ever. This horror genre book series will give u nightmares. Every book with its own story. I started reading it since class 3. Though it was scary at first, I found it very very interesting. It was so scary that when my mon read it, she asked me to stop reading Goosebumps.<br><a href="https://goosebumps.fandom.com/wiki/Goosebumps_Wiki"><b>CLICK TO KNOW MORE ABOUT THIS BOOK</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="page-header" id="contact">
+            <h2 class="text-capitalize">Contact us</h2>
+        </div>
+<hr>
+        <section id="contact1">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14159.74179862233!2d94.9290452!3d27.4712689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x588790fe911b4fb5!2sSalt%20Brook%20Academy!5e0!3m2!1sen!2sin!4v1621853800748!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <hr style="width: 100%;">
+            <img src="32926287_1434866859952621_260614037086142464_n.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Ashwini Dowerah</h3>
+
+            <div class="contact_1">
+
+                <a href="mailto:saltbrookacademy@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;saltbrookacademy@gmail.com</h5>
+                </a>
+
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;myinstagramid</h5>
+                </a>
+            </div>
+
+        </section>
+
     </div>
-    </body>
+
+
+</body>
+
 </html>
